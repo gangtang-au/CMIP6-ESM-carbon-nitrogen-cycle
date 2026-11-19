@@ -1,0 +1,22 @@
+﻿name: cmip6cn
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  # core scientific
+  - numpy
+  - scipy
+  - xarray
+  - pandas
+  - netcdf4
+  - h5py
+  - cftime
+  - dask
+  - bottleneck
+  # notebook and plotting
+  - notebook=6.5.7
+  - ipykernel
+  - matplotlib
+  - seaborn
+  - nb_black
+  - cartopy
